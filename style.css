@@ -1,17 +1,58 @@
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-size: rem;
+  padding: 20px;
+ 
+
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
+  font-family:cambria;  
+  font-size: rem;
+  margin-top: 0,5rem;
+}
+  .site-nav ul{
+    display: flex;
+    padding: 0px;
+  }
+  .site-nav li{
+    list-style: none;
+    border: 1px dashed grey; 
+    padding: 8px;
+    width: 25%;
+  
 }
 .site-main {
   background: #ffc;
+  margin-top: 0,5rem;
+  font-family:cambria;  
+  font-size: rem;
+
 }
 .hentry {
   border: 2px dashed black;
-  margin: 1rem;
+  margin: 0rem;
   padding: 1rem;
+  font-family:cambria;  
+  font-size: rem;
+  
+  
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
+margin-bottom: 2rem;
+padding: 15px;
+font-family:cambria;  
+ font-size: rem;
 }
+.main-section{
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+  font-family:cambria;  
+  font-size: rem;
+  display: flex;
+}
+
